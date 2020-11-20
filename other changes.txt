@@ -1,0 +1,15 @@
+.tab_glpi {
+    margin: 0;
+}
+
+.w3-table th {
+    text-align: center!important;
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+
+// Modificar:	/compiled_css/css_palettes_auror.min.css
+a:link {
+    color: black;
+}
