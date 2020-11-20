@@ -6,7 +6,7 @@
 */
 
 
-// Fix W3CSS
+/* Fix W3CSS */
 
 *, *:before, *:after {
     box-sizing: revert!important;
