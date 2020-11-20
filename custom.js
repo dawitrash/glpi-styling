@@ -8,16 +8,23 @@
 
 /*
 	Asigna la clase correspondiente en base a criterios de texto en cada fila
-	Las clases son de W3CSS, un framework con colores ya asignados a las mismas
-	
-	Se ha importado <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">  
+	Las clases son de W3CSS, un framework con colores ya asignados a las mismas  
 */
 
-function coloringGlpi() {
+// --- Link w3CSS ---
+var head = document.getElementsByTagName('HEAD')[0]
+var link = document.createElement('link')
+link.rel = 'stylesheet'
+link.type = 'text/css'
+link.href = 'https://www.w3schools.com/w3css/4/w3.css'
+head.appendChild(link)
 
+
+function coloringGlpi() {
+	
 	// Modify row background and category colors
 	const rows = document.getElementsByTagName("tr")
-
+	
 	for (let i = 0; i < rows.length; i++) {
 		const row = rows[i]
 
@@ -61,6 +68,7 @@ function coloringGlpi() {
 		}
 	}
 
+	// Modify Table structure
 	const tables = document.getElementsByClassName("tab_cadrehov")
 	
 	console.log(tables[0])
