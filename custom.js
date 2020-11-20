@@ -70,8 +70,6 @@ function coloringGlpi() {
 
 	// Modify Table structure
 	const tables = document.getElementsByClassName("tab_cadrehov")
-	
-	console.log(tables[0])
 	tables[0].className += " w3-table w3-small w3-card-4"
 }
 coloringGlpi()
