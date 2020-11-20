@@ -1,68 +1,13 @@
 /*	__________________________________
  *	|
  *	|	NUBODATA GLPI CSS
- *	|
  *	|	David M.	17/11
  *	|_________________________________
 */
 
-/*	
-	---------------------------------------
-		FONDOS: iperius y mosy
-	---------------------------------------
-*/
 
-/* Iperius - error copia de seguridad */
-.glpi-iperius {
-	background-color: #ffcfcf!important;
-}
-.glpi-iperius:hover {
-	background-color: #ffcfcf85!important;
-}
+// Fix W3CSS
 
-/* MOSY resolved */
-.glpi-mosyResolved {
-	background-color: #cfffd2!important;
-}
-.glpi-mosyResolved:hover {
-	background-color: #cfffd285!important;
-}
-
-/* MOSY error average - naranja */
-.glpi-mosyOrange {
-	background-color: #ffe6a8!important;
-}
-.glpi-mosyOrange:hover {
-	background-color: #ffe6a885!important;
-}
-
-/* MOSY error high o disaster - rojo */
-.glpi-mosyRed {
-	background-color: #c2c2c2!important;
-	color: red;
-}
-.glpi-mosyRed:hover {
-	background-color: #c2c2c285!important;
-}
-a:link {
-	color: black!important;
-}
-
-
-/*	
-	---------------------------------------
-		CATEGORÍAS: aurea, mosy/iperius y voip
-	---------------------------------------
-*/
-
-/* Categoría AUREA */
-.glpi-cat-aurea td:first-child {
-	background-color: #00B4EB;
-}
-/* Categoría MOSY e Iperius */
-.glpi-cat-mosyiperius td:first-child {
-	background-color: #FA1E44;
-}
-.glpi-cat-voip td:first-child {
-	background-color: #FEC925;
+*, *:before, *:after {
+    box-sizing: revert!important;
 }
