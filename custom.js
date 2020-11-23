@@ -1,10 +1,5 @@
-/*	__________________________________
- *	|
- *	|	NUBODATA GLPI JS
- *	|
- *	|	David M.	17/11
- *	|_________________________________
-*/
+// NUBODATA GLPI JS - github.com/dawichi
+// [glpi]/js/common.min.js
 
 /*
 	Asigna la clase correspondiente en base a criterios de texto en cada fila
