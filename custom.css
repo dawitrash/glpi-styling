@@ -1,13 +1,6 @@
-/*	__________________________________
- *	|
- *	|	NUBODATA GLPI CSS
- *	|	David M.	17/11
- *	|_________________________________
-*/
-
+/* NUBODATA GLPI CSS - github.com/dawichi */
 
 /* Fix W3CSS */
-
 *, *:before, *:after {
     box-sizing: revert!important;
 }
