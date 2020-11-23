@@ -5,3 +5,13 @@
 *, *:before, *:after {
     box-sizing: revert!important;
 }
+
+/* Fix Glpi */
+.tab_glpi {
+    margin-left: 10px;
+}
+.w3-table th {
+    text-align: center!important;
+    display: table-cell;
+    vertical-align: inherit;
+}
