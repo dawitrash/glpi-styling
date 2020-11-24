@@ -1,4 +1,0 @@
-// Modificar:	/compiled_css/css_palettes_auror.min.css
-a:link {
-    color: black;
-}
