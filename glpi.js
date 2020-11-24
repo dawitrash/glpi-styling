@@ -60,7 +60,8 @@ function coloringGlpi() {
 	}
 }
 
-if (document.URL === "https://izar.nubodata.com/front/ticket.php") {
+var urlStr = document.URL
+if (urlStr.startsWith("https://izar.nubodata.com/front/ticket.php") ) {
 	
 	coloringGlpi()
 }
