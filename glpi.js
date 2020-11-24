@@ -29,14 +29,21 @@ function coloringGlpi() {
 		}
 		// MOSY - error average
 		if ( row.innerHTML.includes("MOSY Average") ) {
-			row.style.backgroundColor = "#ffffcc"
+			row.style.backgroundColor = "#ffc400"
 		}
 		// MOSY - error high or disaster
 		if ( row.innerHTML.includes("MOSY High") || row.innerHTML.includes("MOSY Disaster") ) {
 			row.style.backgroundColor = "black"
 			row.className += " nbdt-whitetext"
 		}
-		
+		// AUREA
+		if ( row.innerHTML.includes("Root entity &gt; NBDT &gt; AURE") ) {
+			row.style.backgroundColor = " #e8f0ff"
+		}
+		// VOIP
+		if ( row.innerHTML.includes("Root entity &gt; NBDT &gt; APPS &gt; VOIP") ) {
+			row.style.backgroundColor = "#ffffcc"
+		}
 		/*
 			CATEGORÍAS: Colorear las primeras columnas de la fila
 		*/
