@@ -1,8 +1,9 @@
-a:link{color:#93268f}
-
-table.tab_cadrehov a:link{color:black}
-table.tab_cadrehov a:visited{color:black}
-table.tab_cadrehov a:hover{color:black}
-table.tab_cadrehov a:active{color:black}
+table.tab_cadrehov a:link,
+table.tab_cadrehov a:active,
+table.tab_cadrehov a:visited,
+table.tab_cadrehov a:hover
+{
+	color:black
+}
 
 .nbdt-whitetext * {color: white!important}
