@@ -29,7 +29,7 @@ function coloringGlpi() {
 		}
 		// MOSY - error average
 		if ( row.innerHTML.includes("MOSY Average") ) {
-			row.style.backgroundColor = "#ffc400"
+			row.style.backgroundColor = "#ffe9cb"
 		}
 		// MOSY - error high or disaster
 		if ( row.innerHTML.includes("MOSY High") || row.innerHTML.includes("MOSY Disaster") ) {
@@ -57,7 +57,7 @@ function coloringGlpi() {
 		}
 		// IPERIUS
 		if ( row.innerHTML.includes("Root entity &gt; NBDT &gt; APPS &gt; BCKP") ) {
-			row.firstElementChild.style.backgroundColor = "#ff5722"
+			row.firstElementChild.style.backgroundColor = "#ff9635"
 		}
 		// VOIP
 		if ( row.innerHTML.includes("Root entity &gt; NBDT &gt; APPS &gt; VOIP") ) {
