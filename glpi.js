@@ -17,11 +17,11 @@ function coloringGlpi() {
 		*/
 		// IPERIUS - copia con errores
 		if ( row.innerHTML.includes("Copia de seguridad finalizada con errores") ) {
-			row.style.backgroundColor = "#ff9800"
+			row.style.backgroundColor = "#ffdddd"
 		}
 		// IPERIUS - copia con avisos
 		if ( row.innerHTML.includes("Copia de seguridad finalizada con avisos") ) {
-			row.style.backgroundColor = "#ffdddd"
+			row.style.backgroundColor = "#ffdaa2"
 		}
 		// MOSY - problem resolved
 		if ( row.innerHTML.includes("MOSY Resolved") ) {
